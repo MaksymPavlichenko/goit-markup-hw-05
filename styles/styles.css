@@ -649,6 +649,7 @@ ul {
 }
 
 .portfolio-list {
+    display: block;
     border: 1px;
     border-color: #EEEEEE;
     flex-basis: calc(100% / 3 - 30px);
@@ -686,6 +687,11 @@ ul {
     font-size: 18px;
     line-height: 1.56;
     letter-spacing: 0.03em;
+}
+
+.portfolio-list a:hover .portfolio-overlay-text,
+.portfolio-list a:focus .portfolio-overlay-text {
+    transform: translateY(0);
 }
 
 .portfolio-list-head {
