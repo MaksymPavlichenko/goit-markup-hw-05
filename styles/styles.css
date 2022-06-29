@@ -400,6 +400,10 @@ a {
     text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*----Команда----*/
