@@ -379,6 +379,10 @@ a {
     margin-right: 30px;
 }
 
+.work-item {
+    position: relative;
+}
+
 .work-item > img {
     display: block;
 }
