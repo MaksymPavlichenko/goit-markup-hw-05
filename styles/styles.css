@@ -100,11 +100,12 @@ ul {
 
 .curent {
     color: var(--selection-color);
+    position: relative;
 }
 
 .curent::after {
     content: "";
-    
+    box-sizing: border-box;
     display: block;
     position: absolute;
     bottom: -33px;
