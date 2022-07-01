@@ -138,6 +138,10 @@ a {
     color: var(--text-main);
     padding: 32px 0;
     display: block;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-contacts-item:hover,
@@ -464,6 +468,7 @@ a {
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 16px;
     color: var(--text-main);
 }
 
